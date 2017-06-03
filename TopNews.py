@@ -2,7 +2,7 @@
 from twython import TwythonStreamer
 from twython import Twython
 
-twitter = Twython('SkAhAixhHs2TXyjfcr3OwCDGN', 'tQFLJFjSECi5GF2Fm9GlqZVNk3BHFvxtzeRUHiKqUyLxf6ttFK')
+twitter = Twython()
 user_timeline = twitter.get_user_timeline(screen_name='@Reuters')
 
 newslist = []
