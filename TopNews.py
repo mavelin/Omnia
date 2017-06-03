@@ -40,7 +40,4 @@ if __name__ == "__main__":
 #         print status_code, data
 #         self.disconnect()
 #
-# stream = MyStreamer('SkAhAixhHs2TXyjfcr3OwCDGN',
-#                     'tQFLJFjSECi5GF2Fm9GlqZVNk3BHFvxtzeRUHiKqUyLxf6ttFK',
-#                     '3950603013-S2ueAgrrL3hgxsC2COOwHwpdCBVeyHiB0fI3rVB',
-#                     'fQIviIGSxLWGtB0DbabmEdwXa9zUPlG5f4Xg1mAluVjYx')
+
