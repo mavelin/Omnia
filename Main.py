@@ -53,8 +53,11 @@ def askQuestion():
 
 # Provide Requests
 
+
 if __name__ == '__main__':
     goodMorning()
     localtime()
-    weather()
+    # weather()
     news()
+    # while True:
+    #     askQuestion()

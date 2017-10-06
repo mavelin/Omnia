@@ -9,11 +9,10 @@ def geolocate():
     json_string = f.read()
     f.close()
     location = json.loads(json_string)
-    location_city = location['city']
-    location_state = location['region_name']
-    location_country = location['country_name']
-    location_zip = location['zip_code']
-
+    # location_city = location['city']
+    # location_state = location['region_name']
+    # location_country = location['country_name']
+    # location_zip = location['zip_code']
     return location
 
 
@@ -25,4 +24,5 @@ def getweather(location):
 
 
 if __name__ == "__main__":
-    getweather()
+    getweather('Ithaca')
+

@@ -12,7 +12,7 @@ def question():
         question = raw_input("Question: ")
         try:
             # Wolfram Alpha
-            app_id = login.wolfram_key
+            app_id = login.WOLFRAM_KEY
             client = wolframalpha.Client(app_id)
             result = client.query(question)
             result = next(result.results).text
@@ -39,10 +39,9 @@ def query(input):
     except:
         pass
         # Wolfram Alpha
-        app_id = login.wolfram_key
+        app_id = login.WOLFRAM_KEY
         client = wolframalpha.Client(app_id)
         result = client.query(input)
         result = next(result.results).text
         print result
         os.system(say + str(result))
-
